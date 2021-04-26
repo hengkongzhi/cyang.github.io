@@ -128,7 +128,7 @@ disqus:
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: hengkongzhi
-    repo: https://hengkongzhi.github.io/
+    repo: blog-comments
     clientID: e83b16bbced0088fc21b
     clientSecret: 957f968e871713c94b2390c04f151b0c4699b897
 # 在使用其它评论组件时可点击显示 Disqus
