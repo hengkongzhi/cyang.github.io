@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://mazhuang.org
+url: https://hengkongzhi.github.io/
 date_format: "ordinal"
 title: 程序员
 subtitle: 
@@ -11,7 +11,7 @@ keywords: 积极进取，保持open
 timezone: Asia/Shanghai
 encoding: "utf-8"
 side_bar_repo_limit: 5
-repository: hengkongzhi/cyang.github.io
+repository: hengkongzhi/hengkongzhi.github.io
 # 对 css 和 js 资源的 cdn 加速配置
 cdn:
     jsdelivr:
@@ -47,7 +47,7 @@ highlight_theme: github
 author: cyang
 organization: 
 organization_url: 
-github_username: hengkongzhi
+github_username: yangchao
 location: shanghai, China
 email: 1522207896@qq.com
 
@@ -125,18 +125,12 @@ comments_provider: gitalk
 disqus:
     username: 
 # https://imsun.net/posts/gitment-introduction/
-gitment:
-    owner: mzlogin
-    repo: blog-comments
-    oauth:
-        client_id: d2e1cbbd298958076462
-        client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
 # https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: mzlogin
-    repo: blog-comments
-    clientID: d2e1cbbd298958076462
-    clientSecret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+    owner: hengkongzhi
+    repo: https://hengkongzhi.github.io/
+    clientID: e83b16bbced0088fc21b
+    clientSecret: 957f968e871713c94b2390c04f151b0c4699b897
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
 
